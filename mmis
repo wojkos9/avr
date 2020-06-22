@@ -1,0 +1,2 @@
+#!/bin/bash
+avr-gcc -mmcu=atmega328p -std=gnu99 -S $1.c -o$1.s -O3 -DF_CPU=16000000
